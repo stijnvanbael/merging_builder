@@ -4,7 +4,7 @@ description: MergingBuilder reads several input files and writes merged output
   to one file. StandaloneBuilder enables output to a custom folder with custom
   output file name.
 
-version: 0.2.3
+version: 0.2.4
 
 homepage: https://github.com/simphotonics/merging_builder
 
@@ -12,7 +12,7 @@ environment:
   sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
-  analyzer: ^2.7.0
+  analyzer: ^4.1.0
   build: ^2.1.1
   build_runner: ^2.1.5
   dart_style: ^2.2.0
