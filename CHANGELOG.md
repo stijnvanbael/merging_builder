@@ -1,3 +1,7 @@
+## 0.2.4
+
+* Upgrade to Dart 2.14
+
 ## 0.2.3
 
 * Updated dependencies.

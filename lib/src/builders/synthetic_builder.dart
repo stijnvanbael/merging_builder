@@ -124,9 +124,9 @@ abstract class SyntheticBuilder<S extends SyntheticInput> implements Builder {
       // Read library.
       final library = await buildStep.resolver.libraryFor(assetId);
       // Get dependencies
-      for (final import in library.imports) {
-        if (import.uri == null) continue;
-        final uri = Uri.parse(import.uri!);
+      for (final import in library.importedLibraries) {
+        // TODO: fix
+        final uri = Uri.parse(import.identifier);
         // Skip if uri scheme is not "package" or "asset".
         if (uri.scheme == 'package' ||
             uri.scheme == 'asset' ||

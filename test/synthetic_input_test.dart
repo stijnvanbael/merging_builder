@@ -1,5 +1,5 @@
 import 'package:exception_templates/exception_templates.dart';
-import 'package:merging_builder/merging_builder.dart';
+import 'package:merging_builder_svb/merging_builder_svb.dart';
 import 'package:test/test.dart';
 
 /// Tests class `SyntheticInput`.

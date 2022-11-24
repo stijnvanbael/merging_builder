@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:analyzer/dart/element/element.dart';
 import 'package:build/build.dart' show BuildStep;
-import 'package:merging_builder/merging_builder.dart';
+import 'package:merging_builder_svb/merging_builder_svb.dart';
 import 'package:quote_buffer/quote_buffer.dart';
 import 'package:researcher/researcher.dart' show AddNames;
 import 'package:source_gen/source_gen.dart';

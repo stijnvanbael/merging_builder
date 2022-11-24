@@ -1,18 +1,18 @@
-name: merging_builder
+name: merging_builder_svb
 
 description: MergingBuilder reads several input files and writes merged output
   to one file. StandaloneBuilder enables output to a custom folder with custom
-  output file name.
+  output file name. For of https://github.com/simphotonics/merging_builder
 
 version: 0.2.4
 
-homepage: https://github.com/simphotonics/merging_builder
+homepage: https://github.com/stijnvanbael/merging_builder
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.14.0 <3.0.0'
 
 dependencies:
-  analyzer: ^4.1.0
+  analyzer: ^5.2.0
   build: ^2.1.1
   build_runner: ^2.1.5
   dart_style: ^2.2.0
@@ -25,14 +25,9 @@ dependencies:
   path: ^1.8.0
   quote_buffer: ^0.2.3
   source_gen: ^1.1.1
-dependency_overrides: null
-# source_gen:
-#   git:
-#     url: git@github.com:dart-lang/source_gen.git
-#     ref: master
-#     path: source_gen
+
 dev_dependencies:
   build_test: ^2.1.4
   crypto: ^3.0.1
-  lints: ^1.0.1
+  lints: ^2.0.1
   test: ^1.19.3

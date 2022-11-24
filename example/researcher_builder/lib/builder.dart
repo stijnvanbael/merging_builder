@@ -1,5 +1,5 @@
 import 'package:build/build.dart';
-import 'package:merging_builder/merging_builder.dart';
+import 'package:merging_builder_svb/merging_builder_svb.dart';
 
 import 'src/generators/add_names_generator.dart';
 import 'src/generators/assistant_generator.dart';
