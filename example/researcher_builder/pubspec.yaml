@@ -3,10 +3,10 @@ name: researcher_builder
 description: Example demonstrating how to use the library merging_builder.
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
-  analyzer: ^5.2.0
+  analyzer: ^6.2.0
   build: ^2.1.1
   build_config: ^1.0.0
   merging_builder_svb:
@@ -18,11 +18,3 @@ dependencies:
 
 dev_dependencies:
   lints: ^1.0.1
-
-dependency_overrides: null
-
-# source_gen:
-#   git:
-#     url: git@github.com:dart-lang/source_gen.git
-#     ref: master
-#     path: source_gen
